@@ -1,0 +1,47 @@
+/************************************************
+
+Stylesheet: App Stylesheet
+
+*************************************************/
+#app {
+	max-width:400px;
+	border: 1px solid #C0C8CF;
+	border-radius:8px;
+	background-color:white;
+	padding:20px;
+	font-family: "Verdana", "Courier New", monospace;
+	}
+#app .wicon {
+	width:100px;
+	float:right;
+	}
+#app h3 {
+	font-family: "Verdana", "Courier New", monospace;
+	}
+#app h2 {
+	margin-bottom:0px;
+	}
+#app .w-value {
+	text-transform: capitalize;
+	font-weight:bold;
+	}
+#app p {
+	color:black;
+	}
+
+
+/*Mobile*/
+.show-mobile {display:none;}
+@media only screen and (max-width: 640px) {
+	.show-mobile{
+		display:block;
+		}
+	}
+@media only screen and (max-width: 640px) {
+	.hide-mobile{
+		display:none;
+		}
+	#app .wicon {
+		float:none;
+		}
+	}
